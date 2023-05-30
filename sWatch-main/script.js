@@ -20,6 +20,8 @@ function triggerAlarm(task){
     
     alarmSound.play();
     setTimeout(()=>{
+        alarmSound.pause();
+        alert("The alarm went off ")
         deleteTask(task.id)
     },5000)
 }
@@ -117,8 +119,8 @@ function deleteTask(alarmId){
         alarmList.push(newtask[i]);
     }
     renderList();
-    alarmSound.pause();
-    showNotification('Alarm deletad successfully');
+    
+    showNotification('Alarm deleted successfully');
 }
 
 function handleAddButtonClick(e){
