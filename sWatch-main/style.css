@@ -1,0 +1,74 @@
+body{
+
+    background: radial-gradient(
+        circle closest-corner at center 125px,
+        #6ba8a2,
+        black 99%
+      ) no-repeat;
+      
+      text-align: center;
+      color: aliceblue;
+      background-size: 100vw 100vh;
+      padding: 50px;
+      background-attachment:fixed ;
+
+}
+#hr, #min, #sec{
+   
+    font-size: 150px;
+    font-weight: bold;
+     
+}
+#lap-list{
+    font-size: 50px;
+    color: rgb(238, 243, 248);
+}
+.txt,#extra-message{
+    margin-top: 40px;
+    font-size: 50px;
+    color: rgb(238, 243, 248);
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    color: white;
+    transition: all .2s ease;
+    outline: 0 ;
+    cursor: pointer;
+  }
+
+
+
+.btn{
+    font-size: 30px;
+    padding: 7px 20px;
+    margin: 0px 20px;
+    border: 0px;
+    cursor: pointer;
+    color: rgb(8, 95, 182);
+    border: 5px;
+    
+
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    color: black;
+    transition: all .2s ease;
+    outline: 0 ;
+    cursor: pointer;
+}
+
+.delete {
+    height: 28px;
+    padding: 5px 0px;
+    border-radius: 3px; 
+    background-color: white;
+    margin-left: 30px;
+}
+  
