@@ -21,7 +21,7 @@ function triggerAlarm(task){
     alarmSound.play();
     setTimeout(()=>{
         alarmSound.pause();
-        alert("The alarm went off ")
+        // alert("The alarm went off ")
         deleteTask(task.id)
     },5000)
 }
