@@ -59,6 +59,9 @@ let startClock = () => {
             minInfo = 0;
             hrInfo ++;
         }
+        if(hrInfo == 24){
+            hrInfo = 0;
+        }
         updateElement("sec", secInfo);
         updateElement("min", minInfo);
         updateElement("hr", hrInfo);
